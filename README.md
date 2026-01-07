@@ -1,19 +1,24 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Responsive NFT Landing Page
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## 🎯 Project Objective
+The primary goal of this project was to practice **Responsive Web Design (RWD)**. I focused on taking a high-fidelity design typical of the NFT/Web3 industry and implementing it using a mobile-first approach to ensure layout stability across all device categories.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🛠️ Technical Implementation
+* **Semantic HTML5:** Used for structural clarity and accessibility.
+* **CSS3 (Vanilla):** Utilized Flexbox and CSS Grid for complex layouts without relying on external frameworks.
+* **Mobile-First Workflow:** Developed the CSS starting from a 375px viewport and used `@media` queries to scale up to 1440px+ (Desktop).
+* **UI Polish:** Implemented hover transitions, dark-mode color palettes, and container-based layouts.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🔍 Key Challenges Solved
+* **Image Aspect Ratios:** Ensuring NFT card images maintained their proportions without stretching or shrinking on fluid layouts.
+* **Navigation:** Building a responsive navbar that shifts from a mobile-friendly layout to a standard desktop header.
 
-Happy Coding!
+## 🚧 Project Limitations
+* **Static UI:** This is a frontend-only project. There is no blockchain integration, smart contract connectivity, or backend database.
+* **No Frameworks:** Purposefully built with Vanilla CSS to strengthen fundamental CSS knowledge before moving to Tailwind or Bootstrap.
+
+## 🚀 Local Setup
+1. Clone the repository.
+2. Open `index.html` in your preferred browser.
+3. Use Chrome DevTools (F12) to test the responsiveness across various device presets.
+
